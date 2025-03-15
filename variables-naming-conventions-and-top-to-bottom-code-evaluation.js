@@ -24,9 +24,14 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let custName = "Alice";
+let qtyPurchased = 5;
+let itemDescription = "chairs";
+let itemPrice = 20;
+let sentence1 = custName + " bought " + qtyPurchased + " " + itemDescription + " for $" + itemPrice + " each.";
 
-console.log(d);
+console.log(sentence1);
+
+let total = (qtyPurchased*itemPrice)
+let sentence2 = custName + "'s" + " total is $" + total + "."
+console.log(sentence2)
